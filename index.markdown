@@ -8,5 +8,5 @@ title: Home to your favorite home for US-based GodotCon events.
 
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
-  <p style="padding: 5em 0em;"><img src="{{ site.url }}{{ myimage.path }}" /></p>
+  <p style="padding: 5em 0em;"><img src="{{ myimage.path | absolute_url }}" /></p>
 {% endfor %}
