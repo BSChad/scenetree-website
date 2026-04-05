@@ -1,0 +1,70 @@
+.site-title
+{
+    margin-right: auto;
+}
+
+.navbar-logo
+{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    height: 50px;
+    margin-right: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.hero-content
+{
+    margin-bottom: 10%;
+    margin-top: 40%;
+
+    text-shadow: 1px 1px 1px black;
+}
+
+.hero-bg
+{
+    
+}
+
+.included-content
+{
+    background: white;
+    padding: 4rem;
+}
+
+.event-thumbnail
+{
+    border: 1px black solid;
+    border-radius: 10px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    width: 300px;
+    margin: 20px;
+}
+
+.event-thumbnail-image
+{
+    border-radius: 10px 10px 0px 0px;
+
+    width: 100%;
+    height: 200px;
+}
+
+.event-thumbnail-title
+{
+    background-image: linear-gradient(350deg, #6183ff, #47aaf5);
+    color: #fff;
+
+    padding: 5px 10px;
+}
+
+.event-thumbnail-description
+{
+    padding: 5px 10px;
+
+    height: 75px;
+}

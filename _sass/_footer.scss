@@ -1,0 +1,36 @@
+.site-footer
+{
+	color: #737e8c;
+	font-size: 1.4rem;
+
+	margin: 2rem 10rem;
+}
+
+.footer-heading
+{
+	font-size: 2.0rem;
+}
+
+.footer-col-wrapper
+{
+	display: flex;
+    flex-direction: revert-layer;
+    width: 100%;
+}
+
+.footer-col
+{
+	text-decoration: none;
+	list-style: none;
+	flex: 1 1 calc(33.33% - 10px);
+}
+
+.footer-col ul li
+{
+	list-style: none;
+}
+
+.footer-col-header
+{
+	font-weight: bold;
+}

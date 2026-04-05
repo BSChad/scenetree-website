@@ -13036,8 +13036,6 @@ select.form-control:hover {
     font-weight: 400;
     line-height: var(--fs-hero-title);
     margin-bottom: 0.4rem;
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
     position: relative;
     z-index: 1;
 }
@@ -13083,9 +13081,6 @@ select.form-control:hover {
 }
 .hero.header-align-y-bottom .hero-content {
     margin-bottom: 4.8rem;
-}
-.hero.is-container-overlap .hero-content {
-    margin-top: calc(var(--page-with-header-content-offset) * -1);
 }
 .hero.is-container-overlap + .container,
 .hero.is-container-overlap + .page-header {
@@ -13210,7 +13205,6 @@ select.form-control:hover {
     }
 }
 .hero-bg {
-    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     bottom: 0;

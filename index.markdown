@@ -6,7 +6,8 @@ layout: home
 title: Home to your favorite home for US-based GodotCon events.
 ---
 
-{% assign image_files = site.static_files | where: "image", true %}
-{% for myimage in image_files %}
-  <p style="padding: 5em 0em;"><img src="{{ myimage.path | absolute_url }}" /></p>
-{% endfor %}
+## Our Events
+
+{% include elements/event-thumbnail.html image="assets/banners/Mystery.png" title="2026?" description="Something <em>wicked</em> cool?" %}
+
+{% include elements/event-thumbnail.html image="assets/banners/garage.jpg" title="GodotCon US 2025" description="The first US-based GodotCon hosted in Boston." %}
