@@ -23,6 +23,7 @@
 	text-decoration: none;
 	list-style: none;
 	flex: 1 1 calc(33.33% - 10px);
+	text-align: center;
 }
 
 .footer-col ul li
@@ -33,4 +34,28 @@
 .footer-col-header
 {
 	font-weight: bold;
+}
+
+.footer-donate-button
+{
+	background-image: linear-gradient(350deg, #6183ff, #47aaf5);
+	margin: auto;
+	width: fit-content;
+    border-radius: 0.6rem;
+}
+
+.footer-donate-button a
+{
+	display: inline-flex;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	padding: 0.6rem 2.0rem;
+}
+
+.footer-donate-button:hover
+{
+	color: #fefefe;
+	text-decoration: none;
+	background-image: linear-gradient(350deg, #a970ff, #55a3f6);
 }
