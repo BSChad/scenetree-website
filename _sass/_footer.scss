@@ -14,8 +14,8 @@
 .footer-col-wrapper
 {
 	display: flex;
-    flex-direction: revert-layer;
-    width: 100%;
+	flex-direction: revert-layer;
+	width: 100%;
 }
 
 .footer-col
@@ -40,8 +40,9 @@
 {
 	background-image: linear-gradient(350deg, #6183ff, #47aaf5);
 	margin: auto;
+	margin-bottom: 5rem;
 	width: fit-content;
-    border-radius: 0.6rem;
+	border-radius: 0.6rem;
 }
 
 .footer-donate-button a
@@ -58,4 +59,17 @@
 	color: #fefefe;
 	text-decoration: none;
 	background-image: linear-gradient(350deg, #a970ff, #55a3f6);
+}
+
+@media screen and (max-width: 600px)
+{
+	.footer-col-wrapper
+	{
+		flex-direction: column;
+	}
+
+	.footer-col ul
+	{
+		padding: 0;
+	}
 }

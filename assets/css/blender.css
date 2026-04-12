@@ -13091,12 +13091,6 @@ select.form-control:hover {
 .hero-content {
     z-index: 1;
 }
-.hero-content h1 {
-    margin-bottom: 0.8rem;
-}
-.hero-content h3 {
-    margin-bottom: 0;
-}
 .hero-content img {
     max-width: 50rem;
 }
